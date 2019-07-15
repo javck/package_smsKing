@@ -6,7 +6,7 @@ Laravel SmsKing 為串接簡訊王的非官方套件
  - Laravel >= 5.7
 
 ## 安裝
-```composer require javck/smsKing
+```composer require javck/sms-king
 
 ## 環境設定
 ```php artisan vendor:publish --tag=smsKing 
