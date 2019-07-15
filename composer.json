@@ -1,0 +1,34 @@
+{
+    "name": "javck/smsKing",
+    "description": "SmsKing Library for Laravel",
+    "type": "liberary",
+    "keywords": ["smsking", "sms", "laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zack lin",
+            "email": "javck.zack@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.1.3",
+    },
+    "require-dev":{
+    },
+    "autoload": {  
+        "psr-4": {
+            "Javck\\SmsKing\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Javck\\SmsKing\\SmsKingServiceProvider"
+            ],
+            "aliases": {
+                "Ecpay": "Javck\\SmsKing\\Facades\\EcPay"
+            }
+        }
+    }
+}
