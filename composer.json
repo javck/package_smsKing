@@ -25,7 +25,7 @@
                 "Javck\\SmsKing\\SmsKingServiceProvider"
             ],
             "aliases": {
-                "Ecpay": "Javck\\SmsKing\\Facades\\EcPay"
+                "Ecpay": "Javck\\SmsKing\\Facades\\SmsKing"
             }
         }
     }
