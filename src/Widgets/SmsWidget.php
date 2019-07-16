@@ -32,7 +32,7 @@ class SmsWidget extends BaseDimmer
                 'text' => '更多資訊',
                 'link' => 'https://www.kotsms.com.tw/index.php'
             ],
-            'image' => url('storage/images/widgets/sms.jpg'),
+            'image' => url('storage/widgets/sms.jpg'),
         ]));
     }
 
