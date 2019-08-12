@@ -43,6 +43,7 @@ class SmsWidget extends BaseDimmer
      */
     public function shouldBeDisplayed()
     {
-        return true;
+        $role_title = Auth::user()->role->name;
+        return  $role_title == 'admin' || $role_title == 'super' ;
     }
 }
